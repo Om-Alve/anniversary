@@ -20,7 +20,7 @@ function checkAnswers() {
     const resultDiv = document.getElementById('result');
     if (score === totalQuestions) {
         resultDiv.innerHTML = `
-            <p>Congratulations! You answered all the questions correctly and won! Some of the password has been revealed: _ _ o _ _ _ o _</p>
+            <p>Congratulations! You answered all the questions correctly and won! Some of the password has been revealed: _ _ _ _ _ _ _ y _ i _ _</p>
             <img src="congrats.gif" alt="Congratulations" class="centered-gif">
         `;
         resultDiv.classList.add('text-success');

@@ -1,6 +1,6 @@
 function checkPassword() {
     const passwordInput = document.getElementById('passwordInput');
-    const correctPassword = 'iloveyou'; // Replace with your desired password
+    const correctPassword = 'loveofmylife'; // Replace with your desired password
 
     if (passwordInput.value === correctPassword) {
         alert('Correct password! Redirecting to the gift page...');

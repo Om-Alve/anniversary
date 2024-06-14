@@ -699,7 +699,7 @@ on number of pieces
       lineOffset: 30,
       lineStep: 30,
       lines: [
-        {text: "Play", func: this.returnFunct(12)},
+        {text: "Play", func: this.returnFunct(25)},
       ]
     });
   }
@@ -1167,7 +1167,7 @@ Puzzle.prototype.mouseUpGame = function(event) {
                 0, 0,
                 this.width, this.height);
   const congratsMessage = document.createElement('div');
-  congratsMessage.textContent = 'Congrats! You solved it! The hint for the password is _ _ _ _ e _ _ u';
+  congratsMessage.textContent = 'Congrats! You solved it! The hint for the password is  _ _ _ e o _ _ _ _ _ _ e';
   congratsMessage.style.fontSize = '24px';
   congratsMessage.style.color = 'white';
   congratsMessage.style.textAlign = 'center';

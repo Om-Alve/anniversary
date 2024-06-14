@@ -1,0 +1,36 @@
+.bg-pink {
+    background-color: #ff69b4;
+}
+
+.btn-pink {
+    background-color: #ff69b4;
+    color: #fff;
+}
+
+.btn-pink:hover {
+    background-color: #ff3399;
+    color: #fff;
+}
+
+.bg-pink {
+    background-color: #ff69b4;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffc0cb;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+body{
+    background-color: beige;
+}
